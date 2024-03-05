@@ -157,7 +157,7 @@ describe("Ben-Or decentralized consensus algorithm", () => {
 
         states = await getNodesState(faultyArray.length);
       }
-
+      
       for (let index = 0; index < states.length; index++) {
         const state = states[index];
 
